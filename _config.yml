@@ -1,1 +1,34 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: Joseph Kotzker
+description: 'Personal Homepage'
+url: 'https://josephkotzker.com'
+baseurl: ''
+profilepic: '/images/me.jpg'
+bkimage: '/images/bk1.png'
+font_awesome: 'random.js'
+
+author:
+  name: 'Joseph Kotzker'
+  email: joeykotzker@gmail.com
+  twitter_username: kotzker
+# facebook_username:
+  github_username: jkotzker
+  linkedin_username:  josephkotzker
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
